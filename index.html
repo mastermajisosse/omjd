@@ -10,6 +10,10 @@
     Web Apps,+ development in Firebase Android studio ,Unity3d and Laravel.Javascript,HTML/CSS,Java.I am looking to take on
     more work">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <meta property="og:description" content="Designer, Front-end back-end Developer">
     <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
     <link href="autre/FORTE.TTF" rel="fonts">
@@ -69,47 +73,123 @@
 
     <section >
         <div class="sec4">
-            <h1>My Portfolio</h1>
-            <h4> Here some of my projects. Want to see more? 
-                <a class="mailme" href="">Email me</a>.
-            </h4>
+                <div class="container">
+                        <h2>Portfolio</h2>
+                        <h3 style="color: white; margin-bottom: 2%">Games :</h3>
+                        <div class="row">
+                          <div class="col-md-4">
+                            <div class="thumbnail">
+                              <a href="https://play.google.com/store/apps/details?id=com.otot.hockey" target="_blank">
+                                <img src="img/p1.png" alt="Lights" class="im">
+                                <div class="caption">
+                                  <p>Air hockey is a game where two players play against each other on a low-friction table</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="thumbnail">
+                              <a href="https://play.google.com/store/apps/details?id=com.otot.blueball" target="_blank">
+                                <img src="img/p2.png" alt="Nature" class="im">
+                                <div class="caption">
+                                  <p>blue ball a game where you can roll, jump and bounce through exciting levels full of adventure.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="thumbnail">
+                              <a href="https://play.google.com/store/apps/details?id=com.otot.Math.educational.game" target="_blank">
+                                <img src="img/p3.png" alt="Fjords" class="im">
+                                <div class="caption">
+                                  <p>a game that help children learn the multiplication tables while having fun.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>                  
         </div>
+       
     </section>
 
         <section >
-            <div class="sec3">
-                <h1>CONTACT ME</h1>
+            <div class="sec5">
+                <form action="https://formspree.io/mastermajidosse@gmail.com"
+                method="POST" role="form">
+
+                    <div class="messages"></div>
                 
-            </div>
+                    <div class="controls">
+                
+                        <div class="row">
+                            <div class="col-md-3"></div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label for="form_name" class="fc">Name</label>
+                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label for="form_email" class="fc">Email</label>
+                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                                <div class="col-md-3"></div>
+                                <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_message" class="fc">Message</label>
+                                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="row" style="margin-top: 4%">
+                            <div class="col-md-5"></div>
+                            <div class="col-md-5">
+                                <input type="submit" class="b" value="Send message">
+                            </div>
+                        </div>
+                        <div class="row">
+                                <div class="col-md-5"></div>
+                                <div class="col-md-5">
+                                <p class="text-muted">
+                                    <strong>*</strong> These fields are required.</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                </form>
+                </div>
         </section>
 
-        <footer>
-            <div class="titre">
-                Living, learning, &amp; leveling up one day at a time.
-            </div>
-            <div class="iconat">
-                <p class="field">
-                    <a class="button" href="https://www.linkedin.com/in/otmane-el-majid-4a827b102/" target="_blank">
-                        <span><i class="fab fa-linkedin-in fa-fw"></i></span></a>
-                    <a class="button" href="https://github.com/mastermajisosse" target="_blank">
-                        <span><i class="fab fa-github fa-fw"></i></span></a>
-                    <a class="button" href="https://www.youtube.com/channel/UCoYVUZZU-qzbiABPPgsVtyA/videos" target="_blank">
-                        <span><i class="fab fa-youtube fa-fw"></i></span></a>
-                    <a class="button" href="https://twitter.com/otmanmjd" target="_blank">
-                        <span><i class="fab fa-twitter fa-fw"></i></span></a>
-                    <a class="button" href="https://dribbble.com/otmaneelmajid" target="_blank">
-                        <span><i class="fab fa-dribbble fa-fw"></i></span></a>
-                </p>
-            </div>
-            <div class="c">
-                Handcrafted by me Otmane el Majid
-            </div>
-        </footer>
+<footer>
+    <div class="titre">
+        Living, learning, &amp; leveling up one day at a time.
+    </div>
+    <div class="iconat">
+        <p class="field">
+            <a class="button" href="https://www.linkedin.com/in/otmane-el-majid-4a827b102/" target="_blank">
+                <span><i class="fab fa-linkedin-in fa-fw"></i></span></a>
+            <a class="button" href="https://github.com/mastermajisosse" target="_blank">
+                <span><i class="fab fa-github fa-fw"></i></span></a>
+            <a class="button" href="https://www.youtube.com/channel/UCoYVUZZU-qzbiABPPgsVtyA/videos" target="_blank">
+                <span><i class="fab fa-youtube fa-fw"></i></span></a>
+            <a class="button" href="https://instagram.com/otmanmjd" target="_blank">
+                <span><i class="fab fa-instagram fa-fw"></i></span></a>
+            <a class="button" href="https://dribbble.com/otmaneelmajid" target="_blank">
+                <span><i class="fab fa-dribbble fa-fw"></i></span></a>
+        </p>
+    </div>
+    <div class="c">
+        Handcrafted by me Otmane el Majid
+    </div>
+</footer>
 
-
-
-    <script src="js/jquery-3.0.0.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
     <script src="js/particle-main.js"></script>
     <script src="js/plugins.js"></script> <!-- read --> 
     <script src="js/jquery.stellar.js"></script> <!-- find --> 
@@ -118,5 +198,6 @@
     <script src="js/owl.carousel.min.js"></script>  <!-- find --> 
     <script src="js/animated.headline.js"></script>  <!-- find --> 
     <script src="js/particles.js"></script>
+
 </body>
 </html>
